@@ -1,4 +1,12 @@
 @mixin navColor { 
-    background: rgb(174,219,168);
-    background: linear-gradient(27deg, rgb(148, 200, 141) 0%, rgba(196, 224, 160, 0.853) 73%, rgba(152,181,110,1) 100%); 
+    background-color: #7D8779; 
+}
+
+@mixin pageColor { 
+    background: rgb(247,250,245);
+    background: linear-gradient(180deg, rgba(247,250,245,1) 0%, rgba(234,255,233,1) 100%); 
+}
+
+@mixin vectorColor { 
+    background-color: #DECAD5; 
 }

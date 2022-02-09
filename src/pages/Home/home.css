@@ -1,5 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Patrick+Hand&family=Titillium+Web:wght@300&display=swap");
 .about-page-container {
+  font-family: 'Patrick Hand', cursive;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+      grid-template-columns: 2fr 2fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  height: 100%;
+  padding: 20px 20px;
+  margin-top: 20px;
+  background-image: url("../../media/images/VectorBottom.svg"), url("../../media/images/VectorTop.svg");
+  background-repeat: no-repeat;
+  background-position: bottom left, top right;
+  background-size: 50%, 30%;
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 2px 20px 2px #a3a1a1;
+          box-shadow: 2px 2px 20px 2px #a3a1a1;
+}
+
+.about-page-container .about-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 20px;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.about-page-container .about-profile .profile-picture-container {
+  width: 450px;
+  height: 600px;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.about-page-container .about-profile .profile-picture-container .profile-picture {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.about-page-container .profile-main-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7,60 +55,22 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-family: 'Patrick Hand', cursive;
   height: 100%;
-  padding-bottom: 50px;
-}
-
-.about-page-container .profile-picture-container {
-  width: 350px;
-  height: 450px;
-}
-
-.about-page-container .profile-picture-container .profile-picture {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  border: 4px solid #955d66;
-}
-
-.about-page-container .header-image {
-  height: 600px;
-  width: 100%;
-  overflow: hidden;
-}
-
-.about-page-container .header-image img {
-  height: 800px;
-  width: 100%;
-}
-
-.about-page-container .about-page-header {
-  max-width: 1200px;
-  margin-top: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.about-page-container .about-page-header .about-page-header-quote {
-  margin-left: 30px;
-  font-size: 3rem;
-  font-weight: 900;
+.about-page-container .profile-main-text q {
+  font-size: 48px;
+  margin-bottom: 15px;
+  color: #DECAD5;
 }
 
-.about-page-container main {
-  max-width: 1000px;
-  margin-top: 10px;
-  font-size: 24px;
+.about-page-container .profile-main-text p {
+  font-size: 18px;
 }
 /*# sourceMappingURL=home.css.map */

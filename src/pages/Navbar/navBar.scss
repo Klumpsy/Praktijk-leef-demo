@@ -5,12 +5,11 @@
     position: relative; 
     width: 100%; 
     height: 120px;
-    position:fixed; 
+    position:fixed top; 
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 0px 0px 20px 20px;
-    box-shadow: 2px 2px 20px 2px rgb(160, 153, 153);
     @include navColor;
     @include mainText; 
     a { 
@@ -20,7 +19,7 @@
         margin-left: 30px; 
         text-decoration: none;
         font-size: 2.4rem;
-        color: rgb(149, 93, 102); 
+        color: white; 
         &:hover { 
             color: rgb(182, 138, 138); 
             cursor: pointer;
@@ -29,7 +28,7 @@
     .navbar-links-container { 
         margin-right: 70px; 
         a { 
-            color: black; 
+            color: white; 
             font-size: 1.5rem;
             margin: 10px;
             &:hover { 

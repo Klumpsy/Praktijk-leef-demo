@@ -3,3 +3,19 @@
     margin: 0; 
     padding: 0; 
 }
+
+html, body { 
+    height: 100vh;
+    background: rgb(247,250,245);
+    background: linear-gradient(180deg, rgba(247,250,245,1) 0%, rgba(234,255,233,1) 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.pages-content { 
+    margin: 0px 100px;
+    background-color: white;
+    border-radius: 20px;
+    max-width: 1400px;
+    height: 85vh; 
+}

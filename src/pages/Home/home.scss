@@ -1,46 +1,51 @@
 @import "../../typography"; 
 
 .about-page-container { 
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
     @include mainText; 
-    height: 100%; 
-    padding-bottom: 50px;
-    .profile-picture-container {
-        width: 350px;
-        height: 450px; 
-        .profile-picture { 
-            width: 100%; 
-            height: 100%; 
-            border-radius: 50%;
-            border: 4px solid rgb(149, 93, 102);
-        }
-    }
-    .header-image { 
-        height: 600px; 
-        width: 100%;
-        overflow: hidden; 
-        img { 
-            height: 800px; 
-            width: 100%;
-        }
-    }
-    .about-page-header { 
-        max-width: 1200px;
-        margin-top: 50px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr; 
+    height: 100%;
+    padding: 20px 20px;
+    margin-top: 20px;
+    background-image: url("../../media/images/VectorBottom.svg"), url("../../media/images/VectorTop.svg");
+    background-repeat: no-repeat;
+    background-position: bottom left, top right;
+    background-size: 50%, 30%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 2px rgb(163, 161, 161);
+    .about-profile { 
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        .about-page-header-quote { 
-            margin-left: 30px;
-            font-size: 3rem;
-            font-weight: 900;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 20px;
+        height: 100%;
+        border-radius: 20px;
+        .profile-picture-container {
+            width: 450px;
+            height: 600px; 
+            margin: 20px;
+            border-radius: 50%;
+            .profile-picture { 
+                width: 100%; 
+                height: 100%; 
+                border-radius: 50%;
+            }
         }
     }
-    main { 
-        max-width: 1000px; 
-        margin-top: 10px;
-        font-size: 24px;
+    .profile-main-text { 
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content:center;
+        align-items: center;
+        q { 
+            font-size: 48px;
+            margin-bottom: 15px;
+            color: #DECAD5; 
+        }
+        p { 
+            font-size: 18px;
+        }
     }
 }

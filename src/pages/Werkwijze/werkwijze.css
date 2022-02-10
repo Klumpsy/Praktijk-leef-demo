@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Patrick+Hand&family=Titillium+Web:wght@300&display=swap");
-.aanbod-container {
+.werkwijze-page-container {
   font-family: 'Patrick Hand', cursive;
   width: 100%;
   height: 100%;
@@ -13,27 +13,41 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("../../media/images/VectorAanbod.svg");
+  background-image: url("../../media/images/Vector_werkwijze.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
   margin-top: 20px;
 }
 
-.aanbod-container h2 {
+.werkwijze-page-container h2 {
   color: #DECAD5;
   font-size: 42px;
   margin-top: 50px;
 }
 
-.aanbod-container .aanbod-text-container {
+.werkwijze-page-container .werkwijze-text-container {
   width: 80%;
   font-size: 22px;
   margin-top: 20px;
 }
 
-.aanbod-container .aanbod-text-container h3 {
+.werkwijze-page-container .werkwijze-text-container ul {
+  margin-left: 20px;
+}
+
+.werkwijze-page-container .werkwijze-text-container ul li {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.werkwijze-page-container .werkwijze-text-container h3 {
   font-size: 26px;
   color: #DECAD5;
 }
-/*# sourceMappingURL=aanbod.css.map */
+/*# sourceMappingURL=werkwijze.css.map */

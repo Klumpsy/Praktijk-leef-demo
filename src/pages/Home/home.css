@@ -14,7 +14,7 @@
   background-repeat: no-repeat;
   background-position: bottom left, top right;
   background-size: 50%, 30%;
-  border-radius: 20px;
+  border-radius: 20px 20px 0px 0px;
   -webkit-box-shadow: 2px 2px 20px 2px #a3a1a1;
           box-shadow: 2px 2px 20px 2px #a3a1a1;
 }
@@ -48,6 +48,8 @@
 }
 
 .about-page-container .profile-main-text {
+  margin-top: 40px;
+  margin-right: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -65,7 +67,7 @@
 }
 
 .about-page-container .profile-main-text q {
-  font-size: 48px;
+  font-size: 42px;
   margin-bottom: 15px;
   color: #DECAD5;
 }

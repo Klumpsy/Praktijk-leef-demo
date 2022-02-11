@@ -23,6 +23,9 @@ function Navbar() {
                 <Link to="/Tarieven">
                     Tarieven
                 </Link>
+                <Link to="/Contact">
+                    Contact
+                </Link>
             </div>
             <div className="navbar-socials">
                 <a className="navbar-socials-instagram" href="https://www.instagram.com/rianne.jurgensveldsink/?hl=nl" target="_blank">

@@ -6,6 +6,8 @@ import Navbar from "./pages/Navbar/Navbar";
 import Aanbod from "./pages/Aanbod/Aanbod";
 import Werkwijze from "./pages/Werkwijze/Werkwijze";
 import Bekwaamheden from "./pages/Bekwaamheden/Bekwaamheden";
+import Tarieven from "./pages/Tarieven/Tarieven"; 
+import Contact from "./pages/Contact/Contact"; 
 
 import './App.css';
 
@@ -19,6 +21,8 @@ function App() {
           <Route path="/Aanbod" element = { <Aanbod/>}/>
           <Route path = "/Werkwijze" element = {<Werkwijze/>}/>
           <Route path = "/Bekwaamheden" element = {<Bekwaamheden/>}/>
+          <Route path = "/Tarieven" element = {<Tarieven/>}/>
+          <Route path = "/Contact" element = {<Contact/>}/>
         </Routes>
       </main>
     </div>

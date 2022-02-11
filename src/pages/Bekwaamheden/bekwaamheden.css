@@ -14,10 +14,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("../../media/images/Vector_werkwijze.svg");
+  background-image: url("../../media/images/VectorLeft.svg");
   background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
+  background-position: left;
+  background-size: auto;
   margin-top: 20px;
   min-width: 30rem;
   scrollbar-color: #DECAD5 white;
@@ -50,6 +50,7 @@
   font-size: 22px;
   margin-top: 20px;
   padding-bottom: 60px;
+  padding-left: 100px;
 }
 
 .bekwaamheden-page-container .bekwaamheden-text-container ol {
@@ -66,7 +67,12 @@
           align-items: center;
 }
 
-.bekwaamheden-page-container .bekwaamheden-text-container .vertical-timeline-element-date::before {
-  text-align: center;
+.bekwaamheden-page-container .bekwaamheden-text-container .vertical-timeline-element-date {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.bekwaamheden-page-container .bekwaamheden-text-container .vertical-timeline-element-opleidingen {
+  margin: 20px;
 }
 /*# sourceMappingURL=bekwaamheden.css.map */

@@ -4,9 +4,14 @@
     padding: 0; 
 }
 
-html, body { 
-    height: 100vh;
-    min-height: 1200px;
+html{ 
+    font-size: 16px;
+} 
+
+
+body { 
+    width: 100%; 
+    min-height: 100vh;
     background: rgb(247,250,245);
     background: linear-gradient(180deg, rgba(247,250,245,1) 0%, rgba(234,255,233,1) 100%);
     display: flex;
@@ -18,7 +23,7 @@ html, body {
     background-color: white;
     border-radius: 20px 20px 0px 0px;
     max-width: 1400px;
-    min-height: 1000px;
     width: 80vw;
-    height: 85vh; 
+    min-height: 85vh;
+    margin-bottom: 100px;
 }

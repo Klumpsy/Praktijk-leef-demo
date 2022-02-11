@@ -1,5 +1,7 @@
 import React from 'react';
 import "./home.css";
+import { Link } from 'react-router-dom';
+import { FaRegHandPointRight } from "react-icons/fa";
 
 import profilePicture from "../../media/images/foto-rianne-new.jpg";
 
@@ -10,6 +12,9 @@ const Home = () => {
                 <div className="profile-picture-container">
                     <img className="profile-picture" src={profilePicture} />
                 </div>
+                <Link to="/Tarieven" className="action-button">
+                    <FaRegHandPointRight style={{ marginRight: "10px" }} /> Kijk wat ik voor je kan doen!
+                </Link>
             </div>
             <div className="profile-main-text">
                 <q>

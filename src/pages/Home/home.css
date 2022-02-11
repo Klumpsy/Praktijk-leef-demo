@@ -23,6 +23,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -45,6 +46,36 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
+}
+
+.about-page-container .about-profile .action-button {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  bottom: 60px;
+  left: 50px;
+  background-color: #96bb96;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  border-radius: 50px;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.about-page-container .about-profile .action-button:hover, .about-page-container .about-profile .action-button:focus {
+  cursor: pointer;
+  background-color: #7D8779;
+  -webkit-box-shadow: inset -3.5em 0 0 0 var(--hover), inset 3.5em 0 0 0 var(--hover);
+          box-shadow: inset -3.5em 0 0 0 var(--hover), inset 3.5em 0 0 0 var(--hover);
 }
 
 .about-page-container .profile-main-text {

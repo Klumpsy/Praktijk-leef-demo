@@ -18,6 +18,7 @@ const Bekwaamheden = () => {
                     {
                         opleidingen.map(opleiding => (
                             <VerticalTimelineElement
+                                key={opleiding.opleiding}
                                 className="vertical-timeline-element-opleidingen"
                                 contentStyle={{ background: '#E3DEDD', color: '#000' }}
                                 contentArrowStyle={{ borderRight: '7px solid  #000' }}

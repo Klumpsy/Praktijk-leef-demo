@@ -11,7 +11,7 @@ import { GiCardExchange, GiChessRook, GiTreeDoor } from "react-icons/gi";
 const Werkwijze = () => {
     return (
         <div className="werkwijze-page-container">
-            <h2>Aanmelding</h2>
+            <h2>Werkwijze</h2>
             <div className="werkwijze-text-container">
                 Het eerste contact wat met mij gezocht wordt kan telefonisch,
                 via de Whats-App of de mail.

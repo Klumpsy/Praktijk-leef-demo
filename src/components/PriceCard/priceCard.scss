@@ -39,5 +39,10 @@
     &:hover { 
         transform: scale(1.02);
         transition: .2s;
+        .icon-inner { 
+            color: rgb(177, 233, 200); 
+            transform: scale(1.5) translateY(-3px);
+            transition: .4s ease-in-out;
+        }
     }
 }

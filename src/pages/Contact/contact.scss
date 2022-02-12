@@ -1,0 +1,94 @@
+@import "../../colors"; 
+@import "../../typography"; 
+
+.contact-form-container { 
+    @include mainText;
+    width: 100%; 
+    height: 100%;
+    min-height: 85vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2 { 
+        @include accentColor; 
+        font-size: 42px;
+        margin-top: 50px;
+    }
+    .contact-info { 
+        font-size:  20px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .contact-form-wrapper { 
+        height: 100%; 
+        width: 100%; 
+        display: flex;
+        padding: 100px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .contact-form-modal { 
+            width: 400px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 20px;
+            button { 
+                padding: 10px;
+                width: 100%; 
+                font-size: 1.1rem;
+                @include mainButtonColor; 
+                border-radius: 20px;
+                border: none;
+                &:hover { 
+                    cursor: pointer;
+                    @include navColor;
+                    color: white;
+                }
+            }
+        }
+        form { 
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            input { 
+                margin-bottom: 5px;
+                padding: 10px;
+                @include mainText;
+                font-size: 20px;
+                &:focus { 
+                    @include focusColor;
+                }
+            }
+            textarea { 
+                height: 150px;
+                max-width: 400px;
+                min-width: 400px;
+                min-height: 150px;
+                margin-bottom: 5px; 
+                padding: 10px;
+                @include mainText;
+                font-size: 20px;
+                &:focus { 
+                    @include focusColor;
+                }
+            }
+            button { 
+                padding: 10px;
+                font-size: 1.1rem;
+                @include mainButtonColor; 
+                border-radius: 20px;
+                border: none;
+                &:hover { 
+                    cursor: pointer;
+                    @include navColor;
+                    color: white;
+                }
+            }
+        }
+    }
+}

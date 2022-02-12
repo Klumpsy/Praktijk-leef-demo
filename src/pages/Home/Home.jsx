@@ -12,7 +12,7 @@ const Home = () => {
                 <div className="profile-picture-container">
                     <img className="profile-picture" src={profilePicture} />
                 </div>
-                <Link to="/Tarieven" className="action-button">
+                <Link to="/Aanbod" className="action-button">
                     <FaRegHandPointRight style={{ marginRight: "10px" }} /> Kijk wat ik voor je kan doen!
                 </Link>
             </div>

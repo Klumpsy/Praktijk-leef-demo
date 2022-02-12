@@ -28,5 +28,8 @@
             font-size: 26px;
             @include accentColor; 
         } 
+        p { 
+            margin-bottom: 20px;
+        }
     }
 }

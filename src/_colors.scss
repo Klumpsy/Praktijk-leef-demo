@@ -14,3 +14,12 @@
 @mixin accentColor { 
     color: #DECAD5; 
 }
+
+@mixin mainButtonColor { 
+    background-color: rgb(150, 187, 150);
+}
+
+@mixin focusColor { 
+    border: 2px solid rgb(150, 187, 150);
+    outline: none;
+}

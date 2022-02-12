@@ -17,6 +17,19 @@
   border-radius: 20px 20px 0px 0px;
   -webkit-box-shadow: 2px 2px 20px 2px #a3a1a1;
           box-shadow: 2px 2px 20px 2px #a3a1a1;
+  min-height: 85vh;
+}
+
+@media (max-width: 1117px) {
+  .about-page-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .about-page-container .about-profile {
@@ -36,8 +49,8 @@
 }
 
 .about-page-container .about-profile .profile-picture-container {
-  width: 450px;
-  height: 600px;
+  width: 350px;
+  height: 500px;
   margin: 20px;
   border-radius: 50%;
 }
@@ -71,6 +84,14 @@
   transition: 0.25s;
 }
 
+@media (max-width: 1117px) {
+  .about-page-container .about-profile .action-button {
+    position: absolute;
+    bottom: -60px;
+    left: auto;
+  }
+}
+
 .about-page-container .about-profile .action-button:hover, .about-page-container .about-profile .action-button:focus {
   cursor: pointer;
   background-color: #7D8779;
@@ -100,10 +121,13 @@
 .about-page-container .profile-main-text q {
   font-size: 42px;
   margin-bottom: 15px;
+  margin-top: 120px;
   color: #DECAD5;
 }
 
 .about-page-container .profile-main-text p {
-  font-size: 18px;
+  font-size: 20px;
+  padding: 20px;
+  padding-bottom: 50px;
 }
 /*# sourceMappingURL=home.css.map */

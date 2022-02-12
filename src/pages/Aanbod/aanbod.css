@@ -38,4 +38,8 @@
   font-size: 26px;
   color: #DECAD5;
 }
+
+.aanbod-container .aanbod-text-container p {
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=aanbod.css.map */

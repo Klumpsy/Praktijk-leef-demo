@@ -60,4 +60,12 @@
   -webkit-transition: .2s;
   transition: .2s;
 }
+
+.priceCard:hover .icon-inner {
+  color: #b1e9c8;
+  -webkit-transform: scale(1.5) translateY(-3px);
+          transform: scale(1.5) translateY(-3px);
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
 /*# sourceMappingURL=priceCard.css.map */

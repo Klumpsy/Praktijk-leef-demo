@@ -19,7 +19,6 @@
   background-position: left;
   background-size: auto;
   margin-top: 20px;
-  min-width: 30rem;
   scrollbar-color: #DECAD5 white;
   scrollbar-width: thin;
 }
@@ -42,6 +41,7 @@
   color: #DECAD5;
   font-size: 42px;
   margin-top: 50px;
+  text-align: center;
 }
 
 .bekwaamheden-page-container .bekwaamheden-text-container {
@@ -51,6 +51,13 @@
   margin-top: 20px;
   padding-bottom: 60px;
   padding-left: 100px;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 668px) {
+  .bekwaamheden-page-container .bekwaamheden-text-container {
+    padding-left: 0px;
+  }
 }
 
 .bekwaamheden-page-container .bekwaamheden-text-container ol {
@@ -74,5 +81,12 @@
 
 .bekwaamheden-page-container .bekwaamheden-text-container .vertical-timeline-element-opleidingen {
   margin: 20px;
+}
+
+@media (max-width: 528px) {
+  .bekwaamheden-page-container .bekwaamheden-text-container .vertical-timeline-element-opleidingen {
+    font-size: 16px;
+    padding: 1px;
+  }
 }
 /*# sourceMappingURL=bekwaamheden.css.map */

@@ -9,12 +9,20 @@ export const tarieven = [
       name: "Kennismakingsgesprek",
       price: "Gratis",
       info: "Telefonisch gesprek om kennis te maken.",
+      link: "https://wa.me/0682384442",
+      linkText: "Chat op WhatsApp",
+      link2: "0682384442",
+      link2Text: "Telefonisch contact",
       icon: <MdPhoneInTalk size ={30} className = "icon-inner"/>
     },
     {
       name: "Intakegesprek",
       price: "€35,-",
       info: "",
+      link: "https://wa.me/0682384442",
+      linkText: "Chat op WhatsApp",
+      link2: "0682384442",
+      link2Text: "Telefonisch contact",
       icon: <BiConversation size ={30} className = "icon-inner"/>
     },
     {

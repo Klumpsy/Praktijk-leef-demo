@@ -97,6 +97,18 @@
           justify-content: center;
 }
 
+@media (max-width: 545px) {
+  .contact-form-container .contact-form-wrapper form {
+    width: 280px;
+  }
+}
+
+@media (max-width: 280px) {
+  .contact-form-container .contact-form-wrapper form {
+    width: 220px;
+  }
+}
+
 .contact-form-container .contact-form-wrapper form input {
   margin-bottom: 5px;
   padding: 10px;
@@ -112,7 +124,7 @@
 .contact-form-container .contact-form-wrapper form textarea {
   height: 150px;
   max-width: 400px;
-  min-width: 400px;
+  width: 100%;
   min-height: 150px;
   margin-bottom: 5px;
   padding: 10px;

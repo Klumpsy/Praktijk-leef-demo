@@ -1,14 +1,15 @@
 @import "../../colors";
 @import "../../typography"; 
+@import "../../mediaQueries"; 
 
 .navbar-container { 
     position: relative; 
-    width: 100%; 
+    width: 100vw;
+    max-width: 1600px;
     height: 120px;
-    position:fixed top; 
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     border-radius: 0px 0px 20px 20px;
     @include navColor;
     @include mainText; 
@@ -20,13 +21,16 @@
         text-decoration: none;
         font-size: 2.4rem;
         color: white; 
+        @include for-custom-media(450px) { 
+            font-size: 2rem;
+        }
         &:hover { 
             color: rgb(182, 138, 138); 
             cursor: pointer;
         }
     }
     .navbar-links-container { 
-        margin-right: 70px; 
+        margin-right: 20px;
         a { 
             color: white; 
             font-size: 1.5rem;
@@ -35,6 +39,34 @@
                 color: rgb(182, 138, 138);  
             } 
         }
+        @include for-custom-media(968px) { 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            position: absolute;
+            top: 140px;
+            width: 85%;
+            height: 50vh;
+            z-index: 10;
+            border-radius: 0px 20px 20px 0px;
+            transform: translateX(-850px);
+            transition: .3s ease-in-out; 
+            a { 
+                font-size: 2rem;
+            }
+            @include navColor; 
+        }
+    }
+    .hamburger-menu { 
+        margin-right: 20px;
+    }
+    .hamburger-menu-close { 
+        display: none;
+    }
+    .nav-toggled { 
+        transform: translateX(0px);
+        transition: .3s ease-in-out; 
     }
     .navbar-socials { 
         display: flex;
@@ -42,6 +74,14 @@
         position: absolute; 
         right: 20px; 
         top: 150px; 
+        @include for-custom-media(968px) { 
+            flex-direction: row;
+            top: 145px;
+            right: 5px;
+            a{ 
+                margin-right: 10px;
+            }
+        }
         a { 
             color: black; 
             &:hover { 

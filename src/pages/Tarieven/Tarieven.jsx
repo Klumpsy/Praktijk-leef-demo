@@ -23,6 +23,10 @@ const Tarieven = () => {
                             price={tarief.price}
                             title={tarief.name}
                             information={tarief.info}
+                            link={tarief.link}
+                            linkText={tarief.linkText}
+                            link2={tarief.link2}
+                            link2Text={tarief.link2Text}
                             icon={tarief.icon}
                             key={tarief.name}
                         />

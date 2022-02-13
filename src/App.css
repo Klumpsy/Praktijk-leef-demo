@@ -16,14 +16,26 @@ body {
     background: linear-gradient(180deg, rgba(247,250,245,1) 0%, rgba(234,255,233,1) 100%);
     display: flex;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .pages-content { 
-    margin: 0px 100px;
+    margin: 0 auto;
     background-color: white;
     border-radius: 20px 20px 0px 0px;
     max-width: 1400px;
     width: 80vw;
     min-height: 85vh;
     margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 968px) { 
+    .pages-content { 
+        width: 90vw;
+    }
+}
+@media only screen and (max-width: 440px) { 
+    .pages-content { 
+        width: 100vw;
+    }
 }

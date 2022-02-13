@@ -21,14 +21,21 @@
   padding-right: 150px;
 }
 
+@media (max-width: 868px) {
+  .tarieven-container {
+    padding-right: 0px;
+  }
+}
+
 .tarieven-container p {
   padding: 20px;
+  font-size: 18px;
 }
 
 .tarieven-container h2 {
   color: #DECAD5;
   font-size: 42px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .tarieven-container .tarieven-box {

@@ -13,7 +13,7 @@ const Bekwaamheden = () => {
             <h2>Opleidingen en Trainingen</h2>
             <div className="bekwaamheden-text-container">
                 <VerticalTimeline
-                    lineColor={"#DECAD5"}
+                    lineColor={"black"}
                 >
                     {
                         opleidingen.map(opleiding => (

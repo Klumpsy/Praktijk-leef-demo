@@ -1,5 +1,6 @@
 @import "../../colors"; 
 @import "../../typography"; 
+@import "../../mediaQueries"; 
 
 .tarieven-container { 
     @include mainText; 
@@ -14,13 +15,17 @@
     background-size: contain;
     margin-top: 20px;
     padding-right: 150px;
+    @include for-custom-media(868px) {
+        padding-right: 0px;
+    }
     p { 
         padding: 20px;
+        font-size: 18px;
     }
     h2 { 
         @include accentColor; 
         font-size: 42px;
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .tarieven-box { 
         width: 100%; 

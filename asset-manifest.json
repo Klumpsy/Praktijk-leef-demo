@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/praktijk-leef-demo/static/css/main.5205c933.css",
+    "main.js": "/praktijk-leef-demo/static/js/main.96aad657.js",
+    "static/media/foto-rianne-new.jpg": "/praktijk-leef-demo/static/media/foto-rianne-new.31128cf3b799e9d72f89.jpg",
+    "index.html": "/praktijk-leef-demo/index.html",
+    "static/media/VectorAanbod.svg": "/praktijk-leef-demo/static/media/VectorAanbod.4310b1abe4957a6429ce.svg",
+    "static/media/VectorRight.svg": "/praktijk-leef-demo/static/media/VectorRight.f690f70b747a41f677f3.svg",
+    "static/media/VectorLeft.svg": "/praktijk-leef-demo/static/media/VectorLeft.727703321f2345536ca2.svg",
+    "static/media/Vector_werkwijze.svg": "/praktijk-leef-demo/static/media/Vector_werkwijze.ed453f5eccdf63f8f65d.svg",
+    "static/media/VectorBottom.svg": "/praktijk-leef-demo/static/media/VectorBottom.36e391401752dd90838e.svg",
+    "static/media/VectorTop.svg": "/praktijk-leef-demo/static/media/VectorTop.9e0adc3ea40470eb990f.svg",
+    "main.5205c933.css.map": "/praktijk-leef-demo/static/css/main.5205c933.css.map",
+    "main.96aad657.js.map": "/praktijk-leef-demo/static/js/main.96aad657.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5205c933.css",
+    "static/js/main.96aad657.js"
+  ]
+}

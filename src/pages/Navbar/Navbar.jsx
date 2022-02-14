@@ -22,7 +22,7 @@ function Navbar() {
 
     return (
         <nav className="navbar-container">
-            <Link to="/praktijk-leef-demo" onClick={closeWindow}>
+            <Link to="/Praktijk-leef-demo" onClick={closeWindow}>
                 <h1 className="navbar-logo">Praktijk Leef!</h1>
             </Link>
             <div className={width < 968 && menuOpen ? "navbar-links-container nav-toggled" : "navbar-links-container"}>

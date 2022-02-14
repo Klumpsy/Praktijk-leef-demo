@@ -17,7 +17,7 @@ function App() {
       <Navbar/>
       <main className = "pages-content">
         <Routes>
-          <Route path="/" element = { <Home/>}/>
+          <Route path="/praktijk-leef-demo" element = { <Home/>}/>
           <Route path="/Aanbod" element = { <Aanbod/>}/>
           <Route path = "/Werkwijze" element = {<Werkwijze/>}/>
           <Route path = "/Bekwaamheden" element = {<Bekwaamheden/>}/>

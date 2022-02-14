@@ -85,6 +85,12 @@
   }
 }
 
+@media (max-width: 300px) {
+  .navbar-container .navbar-links-container {
+    width: 100%;
+  }
+}
+
 .navbar-container .hamburger-menu {
   margin-right: 20px;
 }

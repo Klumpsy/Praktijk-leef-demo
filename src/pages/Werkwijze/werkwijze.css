@@ -48,6 +48,13 @@
           align-items: center;
 }
 
+@media (max-width: 400px) {
+  .werkwijze-page-container .werkwijze-text-container ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+}
+
 .werkwijze-page-container .werkwijze-text-container h3 {
   font-size: 26px;
   color: #DECAD5;

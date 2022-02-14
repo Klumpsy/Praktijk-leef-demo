@@ -57,6 +57,9 @@
             }
             @include navColor; 
         }
+        @include for-custom-media(300px) { 
+            width: 100%;
+        }
     }
     .hamburger-menu { 
         margin-right: 20px;

@@ -27,6 +27,12 @@
   }
 }
 
+@media (max-width: 500px) {
+  .tarieven-container {
+    background-size: auto;
+  }
+}
+
 .tarieven-container p {
   padding: 20px;
   font-size: 18px;

@@ -28,27 +28,39 @@ const Werkwijze = () => {
                 <br /><br />
                 <ul>
                     <li>
-                        <SiTheconversation style={{ marginRight: "8px", color: "#B6E0B2" }} />
+                        <div>
+                            <SiTheconversation style={{ marginRight: "8px", color: "#B6E0B2" }} />
+                        </div>
                         Oplossingsgerichte gesprekken
                     </li>
                     <li>
-                        <GiTreeDoor style={{ marginRight: "8px", color: "#DECAD5" }} />
+                        <div>
+                            <GiTreeDoor style={{ marginRight: "8px", color: "#DECAD5" }} />
+                        </div>
                         Fysieke oefeningen zoals ademhalingsoefeningen, stevig staan, grenzen aangeven
                     </li>
                     <li>
-                        <BiBrain style={{ marginRight: "8px", color: "#F0C1C1" }} />
+                        <div>
+                            <BiBrain style={{ marginRight: "8px", color: "#F0C1C1" }} />
+                        </div>
                         Creatieve werkvormen
                     </li>
                     <li>
-                        <FaTheaterMasks style={{ marginRight: "8px", color: "#F0E6C1" }} />
+                        <div>
+                            <FaTheaterMasks style={{ marginRight: "8px", color: "#F0E6C1" }} />
+                        </div>
                         Rollenspel
                     </li>
                     <li>
-                        <GiCardExchange style={{ marginRight: "8px", color: "#C9D9E9" }} />
+                        <div>
+                            <GiCardExchange style={{ marginRight: "8px", color: "#C9D9E9" }} />
+                        </div>
                         Coachkaarten, (helpende gedachten, kinderkwaliteitenspel)
                     </li>
                     <li>
-                        <GiChessRook style={{ marginRight: "8px", color: "#C9E9DD" }} />
+                        <div>
+                            <GiChessRook style={{ marginRight: "8px", color: "#C9E9DD" }} />
+                        </div>
                         Verschillende spellen
                     </li>
                 </ul>

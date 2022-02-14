@@ -1,5 +1,6 @@
 @import "../../colors"; 
 @import "../../typography"; 
+@import "../../mediaQueries"; 
 
 .werkwijze-page-container { 
     @include mainText; 
@@ -30,6 +31,10 @@
                 list-style-type: none;  
                 display: flex;
                 align-items: center; 
+                @include for-custom-media(400px) { 
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                }
             }
             
         }

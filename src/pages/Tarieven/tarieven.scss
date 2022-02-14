@@ -18,6 +18,9 @@
     @include for-custom-media(868px) {
         padding-right: 0px;
     }
+    @include for-custom-media(500px) { 
+        background-size: auto;
+    }
     p { 
         padding: 20px;
         font-size: 18px;

@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/PraktijkLeef/static/css/main.8b08e4b4.css",
-    "main.js": "/PraktijkLeef/static/js/main.3a332fc1.js",
-    "static/media/foto-rianne-new.jpg": "/PraktijkLeef/static/media/foto-rianne-new.31128cf3b799e9d72f89.jpg",
-    "index.html": "/PraktijkLeef/index.html",
-    "static/media/VectorAanbod.svg": "/PraktijkLeef/static/media/VectorAanbod.4310b1abe4957a6429ce.svg",
-    "static/media/VectorRight.svg": "/PraktijkLeef/static/media/VectorRight.f690f70b747a41f677f3.svg",
-    "static/media/VectorLeft.svg": "/PraktijkLeef/static/media/VectorLeft.727703321f2345536ca2.svg",
-    "static/media/Vector_werkwijze.svg": "/PraktijkLeef/static/media/Vector_werkwijze.ed453f5eccdf63f8f65d.svg",
-    "static/media/VectorBottom.svg": "/PraktijkLeef/static/media/VectorBottom.36e391401752dd90838e.svg",
-    "static/media/VectorTop.svg": "/PraktijkLeef/static/media/VectorTop.9e0adc3ea40470eb990f.svg",
-    "main.8b08e4b4.css.map": "/PraktijkLeef/static/css/main.8b08e4b4.css.map",
-    "main.3a332fc1.js.map": "/PraktijkLeef/static/js/main.3a332fc1.js.map"
+    "main.css": "/Praktijk-leef-demo/static/css/main.07796024.css",
+    "main.js": "/Praktijk-leef-demo/static/js/main.598f0a14.js",
+    "static/media/foto-rianne-new.jpg": "/Praktijk-leef-demo/static/media/foto-rianne-new.31128cf3b799e9d72f89.jpg",
+    "index.html": "/Praktijk-leef-demo/index.html",
+    "static/media/VectorAanbod.svg": "/Praktijk-leef-demo/static/media/VectorAanbod.4310b1abe4957a6429ce.svg",
+    "static/media/VectorRight.svg": "/Praktijk-leef-demo/static/media/VectorRight.f690f70b747a41f677f3.svg",
+    "static/media/VectorLeft.svg": "/Praktijk-leef-demo/static/media/VectorLeft.727703321f2345536ca2.svg",
+    "static/media/Vector_werkwijze.svg": "/Praktijk-leef-demo/static/media/Vector_werkwijze.ed453f5eccdf63f8f65d.svg",
+    "static/media/VectorBottom.svg": "/Praktijk-leef-demo/static/media/VectorBottom.36e391401752dd90838e.svg",
+    "static/media/VectorTop.svg": "/Praktijk-leef-demo/static/media/VectorTop.9e0adc3ea40470eb990f.svg",
+    "main.07796024.css.map": "/Praktijk-leef-demo/static/css/main.07796024.css.map",
+    "main.598f0a14.js.map": "/Praktijk-leef-demo/static/js/main.598f0a14.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b08e4b4.css",
-    "static/js/main.3a332fc1.js"
+    "static/css/main.07796024.css",
+    "static/js/main.598f0a14.js"
   ]
 }

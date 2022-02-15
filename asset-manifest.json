@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Praktijk-leef-demo/static/css/main.ab6fa8e9.css",
-    "main.js": "/Praktijk-leef-demo/static/js/main.c5bbe88e.js",
-    "static/media/foto-rianne-new.jpg": "/Praktijk-leef-demo/static/media/foto-rianne-new.31128cf3b799e9d72f89.jpg",
+    "main.css": "/Praktijk-leef-demo/static/css/main.efb9cb90.css",
+    "main.js": "/Praktijk-leef-demo/static/js/main.15ffb95b.js",
+    "static/media/rianneProfiel.jpg": "/Praktijk-leef-demo/static/media/rianneProfiel.aa6e7f91b03ebe32263a.jpg",
     "static/media/praktijk-leef-logo.png": "/Praktijk-leef-demo/static/media/praktijk-leef-logo.14a58fef0c3244aa1e3b.png",
     "index.html": "/Praktijk-leef-demo/index.html",
     "static/media/VectorAanbod.svg": "/Praktijk-leef-demo/static/media/VectorAanbod.4310b1abe4957a6429ce.svg",
@@ -11,11 +11,11 @@
     "static/media/Vector_werkwijze.svg": "/Praktijk-leef-demo/static/media/Vector_werkwijze.ed453f5eccdf63f8f65d.svg",
     "static/media/VectorBottom.svg": "/Praktijk-leef-demo/static/media/VectorBottom.36e391401752dd90838e.svg",
     "static/media/VectorTop.svg": "/Praktijk-leef-demo/static/media/VectorTop.9e0adc3ea40470eb990f.svg",
-    "main.ab6fa8e9.css.map": "/Praktijk-leef-demo/static/css/main.ab6fa8e9.css.map",
-    "main.c5bbe88e.js.map": "/Praktijk-leef-demo/static/js/main.c5bbe88e.js.map"
+    "main.efb9cb90.css.map": "/Praktijk-leef-demo/static/css/main.efb9cb90.css.map",
+    "main.15ffb95b.js.map": "/Praktijk-leef-demo/static/js/main.15ffb95b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab6fa8e9.css",
-    "static/js/main.c5bbe88e.js"
+    "static/css/main.efb9cb90.css",
+    "static/js/main.15ffb95b.js"
   ]
 }

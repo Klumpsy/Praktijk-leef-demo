@@ -3,7 +3,7 @@ import "./home.css";
 import { Link } from 'react-router-dom';
 import { FaRegHandPointRight } from "react-icons/fa";
 
-import profilePicture from "../../media/images/foto-rianne-new.jpg";
+import profilePicture from "../../media/images/rianneProfiel.jpg";
 
 const Home = () => {
     return (

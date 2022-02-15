@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Patrick+Hand&family=Titillium+Web:wght@300&display=swap");
+.footer-container {
+  width: 100%;
+  max-width: 1600px;
+  height: 80px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: #7D8779;
+  font-family: 'Patrick Hand', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-container p {
+  color: #4e4b4b;
+}
+
+.footer-container a {
+  color: #96bb96;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer-container a:hover {
+  color: #b3ecb3;
+}
+
+@media (max-width: 480px) {
+  .footer-container p {
+    font-size: 12px;
+  }
+  .footer-container a {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

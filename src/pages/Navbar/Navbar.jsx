@@ -6,6 +6,9 @@ import { Sling as Hamburger } from 'hamburger-react'
 import { BsInstagram } from "react-icons/bs"
 import { AiOutlineMail } from "react-icons/ai";
 
+//Logo
+import logo from "../../media/images/praktijk-leef-logo.png";
+
 function Navbar() {
     const [width, setWidth] = useState(window.innerWidth);
     const [menuOpen, setMenuOpen] = useState(false);
@@ -23,7 +26,9 @@ function Navbar() {
     return (
         <nav className="navbar-container">
             <Link to="/Praktijk-leef-demo/" onClick={closeWindow}>
-                <h1 className="navbar-logo">Praktijk Leef!</h1>
+                <div className="navbar-logo">
+                    <img src={logo} />
+                </div>
             </Link>
             <div className={width < 968 && menuOpen ? "navbar-links-container nav-toggled" : "navbar-links-container"}>
                 <Link to="/Aanbod" onClick={closeWindow}>

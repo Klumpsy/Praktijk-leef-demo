@@ -8,6 +8,7 @@ import Werkwijze from "./pages/Werkwijze/Werkwijze";
 import Bekwaamheden from "./pages/Bekwaamheden/Bekwaamheden";
 import Tarieven from "./pages/Tarieven/Tarieven"; 
 import Contact from "./pages/Contact/Contact"; 
+import Footer from "./pages/Footer/Footer";
 
 import './App.css';
 
@@ -25,6 +26,7 @@ function App() {
           <Route path = "/Contact" element = {<Contact/>}/>
         </Routes>
       </main>
+      <Footer/>
     </div>
   );
 }

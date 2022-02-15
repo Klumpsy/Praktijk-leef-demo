@@ -25,19 +25,22 @@
 .navbar-container .navbar-logo {
   margin-left: 30px;
   text-decoration: none;
-  font-size: 2.4rem;
-  color: white;
+  width: 180px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 650px) {
   .navbar-container .navbar-logo {
-    font-size: 2rem;
+    width: 120px;
   }
 }
 
 .navbar-container .navbar-logo:hover {
   color: #b68a8a;
   cursor: pointer;
+}
+
+.navbar-container .navbar-logo img {
+  width: 100%;
 }
 
 .navbar-container .navbar-links-container {

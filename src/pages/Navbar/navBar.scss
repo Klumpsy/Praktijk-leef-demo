@@ -105,5 +105,10 @@
                 color: rgb(113, 174, 231); 
             }
         }
+        .navbar-socials-whatsApp { 
+            &:hover { 
+                color: rgb(124, 200, 124);
+            }
+        }
     }
 }

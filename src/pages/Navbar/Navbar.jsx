@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import "./navBar.css";
 
 import { Sling as Hamburger } from 'hamburger-react'
-import { BsInstagram } from "react-icons/bs"
+import { BsInstagram, BsWhatsapp } from "react-icons/bs"
 import { AiOutlineMail } from "react-icons/ai";
 
 //Logo
@@ -66,6 +66,9 @@ function Navbar() {
                 </a>
                 <a className="navbar-socials-email" href="mailto:praktijkleef@outlook.com?subject=Contact met Praktijk leef&body= Dag Rianne,">
                     <AiOutlineMail size={30} />
+                </a>
+                <a className="navbar-socials-whatsApp" href="https://wa.me/31682384442" target="_blank">
+                    <BsWhatsapp size={30} />
                 </a>
             </div>
         </nav>
